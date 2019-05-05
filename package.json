@@ -1,0 +1,31 @@
+{
+  "name": "typescriptbasics",
+  "version": "1.0.0",
+  "description": "typescript basics",
+  "main": "access.js",
+  "scripts": {
+    "test": "protractor JSFiles/conf.js",
+    "pretest": "tsc --skipLibCheck",
+    "protractor": "./node_modules/build/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update",
+    "cucumbertest": "protractor JSFiles/cucumberconfig.js",
+    "precucumbertest": "tsc --skipLibCheck"
+  },
+  "author": "shubham",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cucumber": "^4.0.5",
+    "@types/jasmine": "~3.3.12",
+    "@types/jasminewd2": "~2.0.6",
+    "@types/node": "11.13.7",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^5.1.0",
+    "jasmine": "~3.3.1",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.1",
+    "ts-node": "8.1.0",
+    "typescript": "~3.4.1",
+    "cucumber-html-reporter": "^5.0.0"
+  }
+}
