@@ -12,9 +12,9 @@ export let config: Config = {
     // To run script without cucumber use below
     //specs: ['typescriptscript.js'],
     capabilities: {
-      //  'browserName': 'firefox',
+        'browserName': 'firefox',
       //    'browserName': 'internet explorer',
-        'browserName': 'chrome',
+      //  'browserName': 'chrome',
         'marionette': true,
         //shardTestFiles: true,
     },
