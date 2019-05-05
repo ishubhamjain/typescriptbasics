@@ -1,0 +1,96 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I am going to validate the qaacamedy site",
+    "line": 1,
+    "id": "i-am-going-to-validate-the-qaacamedy-site",
+    "tags": [],
+    "uri": "Features\\practicesite.feature",
+    "elements": [
+      {
+        "id": "i-am-going-to-validate-the-qaacamedy-site;practice-assignment",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "practice assignment",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": ":I will navigate to qaacamedy site",
+            "match": {
+              "location": "stepDefination\\practiceClass.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2801000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": ": click on the shop and add all products in cart",
+            "match": {
+              "location": "stepDefination\\practiceClass.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": ": I calculate all price",
+            "match": {
+              "location": "stepDefination\\practiceClass.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 766000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": ": some should be shown",
+            "match": {
+              "location": "stepDefination\\practiceClass.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefination\\hooks.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

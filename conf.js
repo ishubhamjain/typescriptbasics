@@ -3,8 +3,8 @@ exports.config = {
     directConnect:true,
     //seleniumAddress: 'http://localhost:4444/wd/hub',
     // To run script without cucumber use below
-   // specs: ['realproject.js'],
-   specs: ['./jsObjects/jasmineSelenium.js'],
+    specs: ['realproject.js'],
+   //specs: ['./jsObjects/jasmineSelenium.js'],
     capabilities: {
         //'browserName': 'firefox',
         'browserName': 'chrome',
